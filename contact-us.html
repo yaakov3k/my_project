@@ -1,24 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><contact-us></title>
 </head>
+
 <body>
-    <h1>צור קשר</h1>
-   
-    <input required type="text" name="first name" > <label for="first name">:שם פרטי</label><br><br>
-    <input required type="text" name="last name" > <label for="last name"> :שם משפחה</label><br><br>
-    <input required type="number" name="number" > <label for="number"> :טלפון</label><br><br>
-    <input required type="adress" name="adress"> <label for="adress">:כתובת</label><br><br>
-    <input required type="email" name="email" > <label for="email"> :אי-מייל</label><br><br>
-   <label for="textarea" > :תוכן הפניה  <br>
-        <textarea required name="Reference content" id="Reference content" rows="10" cols="18"> </textarea>
-    </label><br><br>
-   <blockquote> <input type="checkbox" name="shivuk">  <label for="shivuk"> הסכמה לקבל תוכן שיווקי</label>
-   </blockquote>
-    
-   <a href="index.html">חזרה לדף הבית</a>
+    <h1 style="font-weight: bold;font-size: 42px;">צור קשר</h1>
+
+    <form>
+        <input required type="text" id="first name" name="fname"> <label for="first name">:שם פרטי</label><br><br>
+        <input required type="text" id="last name" name="lname"> <label for="last name"> :שם משפחה</label><br><br>
+        <input required type="number" id="number"> <label for="number"> :טלפון</label><br><br>
+        <input required type="adress" id="adress"> <label for="adress">:כתובת</label><br><br>
+        <input required type="email" id="email"> <label for="email"> :אי-מייל</label><br><br>
+        <label for="textarea"> :תוכן הפניה <br>
+            <textarea required name="Reference content" id="Reference content" rows="10" cols="18"> </textarea>
+        </label><br><br>
+        <input type="checkbox" name="shivuk"> <label for="shivuk"> הסכמה לקבל תוכן שיווקי</label><br>
+        <input required type="checkbox" name="shivuk"> <label for="agreement">הסכמה לתנאי השירות</label>
+
+        <br>
+
+
+    </form>
+    <h3>איך הגעת אלינו</h3>
+
+    <select name="arrive">
+        <!-- לבחור אופציה-->
+        <!-- <option value="" disabled selected>choice option</option> -->
+        <option value="google">google</option>
+        <option value="friend">friend</option>
+        <option value="other">other</option>
+    </select>
+    <br>
+    <br>
+    <input type="submit" value="send" style="width: 800px;">
+    <br>
+    <a href="index.html">חזרה לדף הבית</a>
 </body>
-    </html>
+
+</html>

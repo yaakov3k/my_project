@@ -1,0 +1,108 @@
+[1mdiff --git a/abuot.html b/abuot.html[m
+[1mindex f946bc2..5cbeeb8 100644[m
+[1m--- a/abuot.html[m
+[1m+++ b/abuot.html[m
+[36m@@ -9,6 +9,14 @@[m
+     יעקב קצנלבוגן[m
+     <P>גר בירושלים מעגלות הרב פרדס</P>[m
+     <p>id305364663[m
+[31m-<br/> <a href="index.html">חזרה לדף הבית</a>[m
+[32m+[m[32m<br/>[m
+[32m+[m[32m<label>male[m[41m [m
+[32m+[m[32m    <input name="gender" value="male" type="radio">[m
+[32m+[m[32m</label>[m
+[32m+[m[32m    <br> <label>famale <input name="gender" value="famale" type="radio">[m
+[32m+[m[41m    [m
+[32m+[m[32m</label>[m
+[32m+[m[32m<br>[m
+[32m+[m[32m<a href="index.html">חזרה לדף הבית</a>[m
+ </body>[m
+ </html>[m
+\ No newline at end of file[m
+[1mdiff --git a/contact-us.html b/contact-us.html[m
+[1mindex 6283aa9..bd061e5 100644[m
+[1m--- a/contact-us.html[m
+[1m+++ b/contact-us.html[m
+[36m@@ -1,24 +1,45 @@[m
+ <!DOCTYPE html>[m
+ <html lang="en">[m
+[32m+[m
+ <head>[m
+     <meta charset="UTF-8">[m
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">[m
+     <title><contact-us></title>[m
+ </head>[m
+[32m+[m
+ <body>[m
+     <h1>צור קשר</h1>[m
+[31m-   [m
+[31m-    <input required type="text" name="first name" > <label for="first name">:שם פרטי</label><br><br>[m
+[31m-    <input required type="text" name="last name" > <label for="last name"> :שם משפחה</label><br><br>[m
+[31m-    <input required type="number" name="number" > <label for="number"> :טלפון</label><br><br>[m
+[31m-    <input required type="adress" name="adress"> <label for="adress">:כתובת</label><br><br>[m
+[31m-    <input required type="email" name="email" > <label for="email"> :אי-מייל</label><br><br>[m
+[31m-   <label for="textarea" > :תוכן הפניה  <br>[m
+[31m-        <textarea required name="Reference content" id="Reference content" rows="10" cols="18"> </textarea>[m
+[31m-    </label><br><br>[m
+[31m-   <blockquote> <input type="checkbox" name="shivuk">  <label for="shivuk"> הסכמה לקבל תוכן שיווקי</label>[m
+[31m-   </blockquote>[m
+[31m-    [m
+[31m-   <a href="index.html">חזרה לדף הבית</a>[m
+[32m+[m
+[32m+[m[32m    <form>[m
+[32m+[m[32m        <input required type="text" id="first name" name="fname"> <label for="first name">:שם פרטי</label><br><br>[m
+[32m+[m[32m        <input required type="text" id="last name" name="lname"> <label for="last name"> :שם משפחה</label><br><br>[m
+[32m+[m[32m        <input required type="number" id="number"> <label for="number"> :טלפון</label><br><br>[m
+[32m+[m[32m        <input required type="adress" id="adress"> <label for="adress">:כתובת</label><br><br>[m
+[32m+[m[32m        <input required type="email" id="email"> <label for="email"> :אי-מייל</label><br><br>[m
+[32m+[m[32m        <label for="textarea"> :תוכן הפניה <br>[m
+[32m+[m[32m            <textarea required name="Reference content" id="Reference content" rows="10" cols="18"> </textarea>[m
+[32m+[m[32m        </label><br><br>[m
+[32m+[m[32m        <input type="checkbox" name="shivuk"> <label for="shivuk"> הסכמה לקבל תוכן שיווקי</label><br>[m
+[32m+[m[32m        <input required type="checkbox" name="shivuk"> <label for="agreement">הסכמה לתנאי השירות</label>[m
+[32m+[m
+[32m+[m[32m        <br>[m
+[32m+[m
+[32m+[m
+[32m+[m[32m    </form>[m
+[32m+[m[32m    <h3>איך הגעת אלינו</h3>[m
+[32m+[m
+[32m+[m[32m    <select name="arrive">[m
+[32m+[m[32m        <!-- לבחור אופציה-->[m
+[32m+[m[32m        <!-- <option value="" disabled selected>choice option</option> -->[m
+[32m+[m[32m        <option value="google">google</option>[m
+[32m+[m[32m        <option value="friend">friend</option>[m
+[32m+[m[32m        <option value="other">other</option>[m
+[32m+[m[32m    </select>[m
+[32m+[m[32m    <br>[m
+[32m+[m[32m    <br>[m
+[32m+[m[32m    <input type="submit" value="send">[m
+[32m+[m[32m    <br>[m
+[32m+[m[32m    <a href="index.html">חזרה לדף הבית</a>[m
+ </body>[m
+[31m-    </html>[m
+\ No newline at end of file[m
+[32m+[m
+[32m+[m[32m</html>[m
+\ No newline at end of file[m
+[1mdiff --git a/videos .html b/videos .html[m
+[1mindex 73a0569..ce1e4e5 100644[m
+[1m--- a/videos .html[m	
+[1m+++ b/videos .html[m	
+[36m@@ -32,7 +32,16 @@[m
+ </tr>[m
+ [m
+ </table>[m
+[32m+[m[32m<br>[m
+[32m+[m[32m<br>[m
+[32m+[m[32m<h3>search youtube</h3>[m
+ [m
+[32m+[m[32m<form action="https://www.youtube.com/results?search_query=" target="_blank" >[m
+[32m+[m[32m    <input name="search_query"[m
+[32m+[m[32m    placeholder="search">[m
+[32m+[m[41m    [m
+[32m+[m[32m    <input type="submit" value="search">[m
+[32m+[m[32m</form>[m
+ [m
+ [m
+     <br/> <a href="index.html">חזרה לדף הבית</a>[m
