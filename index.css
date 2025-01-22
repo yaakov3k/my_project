@@ -1,0 +1,70 @@
+.index-a {
+    color: red;
+    display: block;
+    text-align: center;
+    border: 3px black solid;
+    background-color: yellow;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 200px;
+}
+
+.h1 {
+    font-weight: 100;
+    font-size: 32px;
+    text-align: center;
+}
+
+.body-index {
+    background-color: wheat;
+}
+
+.body-abuot {
+    direction: rtl;
+}
+
+#abuot-img {
+    padding: 10px;
+    margin-bottom: 100px;
+    background-color: green;
+}
+
+.h3 {
+    font-weight: "100";
+    font-size: 26px;
+}
+
+td,
+th {
+    padding: 5px;
+    border: 1px black solid;
+}
+
+#search_youtube {
+    height: 40px
+}
+
+#button-youtube {
+    width: 200px;
+}
+
+#table-videos {
+    margin: auto;
+    border-collapse: collapse;
+}
+
+.body-contact-us {
+    text-align: center;
+}
+
+.form-contact {
+    background-color: green;
+    color: yellow;
+    border: 5px black solid;
+}
+
+#send-contact {
+    margin: auto;
+    width: 80px;
+    display: block;
+}
